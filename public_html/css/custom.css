@@ -1,0 +1,50 @@
+/*this is my custom CSS*/
+body { padding-top: 70px; }
+footer{
+    padding: 2em 0;
+    margin: 3em 0;
+    border-top: 1px solid #ddd;
+}
+
+.glyphicon{
+    color: #333;
+}
+
+
+.pull-right.img-responsive{
+    margin: 0 0 1em 1em;
+}
+.btn-info{
+    background-color: #cdae51;
+    border-color: #000\9;
+    color: #fcf8e3;
+}
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #ddd;
+  content: none;
+}
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #ddd;
+	color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #333;
+}
+.tab-pane{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0.8em;
+}
+.active .glyphicon{
+    color:#cdae51;
+}
